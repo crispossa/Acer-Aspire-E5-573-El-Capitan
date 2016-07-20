@@ -17853,5 +17853,20 @@ P8XH (One, 0xAB)
             }
         }
     }
+    Scope (_SB)
+    {
+        
+    }
+    Scope (_SB)
+    {
+        Device (PNLF)
+        {
+            Name (_ADR, Zero)
+            Name (_HID, EisaId ("APP0002"))
+            Name (_CID, "backlight")
+            Name (_UID, 10)
+            Name (_STA, 0x0B)
+        }
+    }
 }
 
